@@ -1,0 +1,289 @@
+body{
+background-color: #272B2B;
+margin: 0;
+}
+.aboutback{
+ background-color:#272B2B;
+ background-image: none;
+ margin:0 auto;
+}
+
+.back {
+    background-image: url(55.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+.home1{
+    font-size: 60px;
+    color:#E8AE00;
+    text-align: center;
+}
+
+.home3{
+font-size: 40px;
+color: white;
+text-align: center;
+}
+
+.home2{
+
+    color: white;
+    text-align: center;
+
+
+}
+
+
+.line{
+        background-color:#E8AE00;
+        padding: 10px;
+        margin: 0%;
+        
+        
+}
+
+
+
+
+.container{display: flex;
+           justify-content: flex-end;
+   }
+
+.link{
+display: inline-block;
+justify-content: space-around;
+justify-content: space-between;
+margin-left: 30px;
+margin-right: 10px;
+}
+
+a{
+    font-size: 30px;
+    color:white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 3px ;
+    padding: 10px;
+    text-decoration: none;
+
+
+
+}
+a:hover{
+color:#E8AE00;
+background-color: white;
+
+}
+
+.top{
+    background-color: #1D1C1F;
+    padding: 10px;
+    -webkit-box-shadow: 0px -10px 26px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -10px 26px 8px rgba(0,0,0,0.75);
+    box-shadow: 0px -10px 26px 8px rgba(0,0,0,0.75);
+    margin: 0 auto;
+    
+
+
+
+}   
+
+.h2sec, .h1sec, .h3sec {
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+.psec1, .p2sec, .p3sec{
+
+font-size: 20px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+} 
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.divfooter{
+
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     color: #E8AE00;
+     background-color: #1D1C1F;
+     -webkit-box-shadow: 0px -10px 26px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -10px 26px 8px rgba(0,0,0,0.75);
+box-shadow: 0px -10px 26px 8px rgba(0,0,0,0.75);
+margin: 0 auto;
+
+
+}
+.ins1:hover, .ins2:hover, .ins3:hover {
+    
+       border: 2px solid #E8AE00;
+       padding :10px;
+       margin: 10px;
+}
+.abouth1, .abouth2 { 
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E8AE00;
+}
+.pabout1, .pabout2 {
+    font-size:20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .about1{
+   
+    background-image: url("https://gomycode.co/images/SEO/landingPage.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border: 1 px;
+    border-radius: 3px;
+ }
+ .abouth1, .pabout1 {
+padding: 20px;
+margin: 0px;
+text-shadow: 4px 4px 15px black;
+ }
+ .about1:hover{ 
+border: 15px solid transparent;
+ }
+
+
+.about2{
+display: flex;
+justify-content: flex-end;
+justify-content: space-around;
+align-items: center;
+}
+.imgabout{
+width: 500px;
+height:400px;
+border: 3 px solid transparent;
+border-radius: 5 px;
+}
+
+.flexpara{
+border: 5px solid transparent;
+padding-left: 10 px;
+padding-right: 10px;
+margin: 10px;
+
+}
+
+.flexpara:hover{
+    border: 2px solid #E8AE00;
+    border-radius: 2px ;
+}
+.abouth2, .pabout2{
+text-align: center;
+}
+
+.yahiah1{
+color: #E8AE00;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.formu{
+
+max-width: 500px;
+margin :2rem auto;
+border:2px solid #E8AE00;
+padding: 2rem;
+background-color: transparent;
+
+
+}
+
+.titles{
+font-family: Arial, Helvetica, sans-serif;
+color: #E8AE00;
+display: block;
+-webkit-box-shadow: 21px -12px 21px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 21px -12px 21px 8px rgba(0,0,0,0.75);
+box-shadow: 21px -12px 21px 8px rgba(0,0,0,0.75);
+
+}
+
+.sameline{
+
+display: block;
+width: 100%;
+
+
+}
+
+.logback {background-image: url(https://gomycode.tn/images/slider2/slider11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.congrats{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+/*.congratback{
+background-image: url(bureau/HANDS);
+
+}*/
+
+@media screen and (max-width:500px) 
+{
+
+
+.container {
+    font-size: 1px;
+    color: #E8AE00 !important;
+    display: flex;
+    justify-content: center;
+
+
+             
+
+
+}
+a {
+    font-size: 50px;
+    color: #E8AE00 !important;
+
+
+             
+
+
+}
+} 
+
+
+
+
